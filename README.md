@@ -23,6 +23,7 @@ Este proyecto es un sitio web estatico de portfolio personal desarrollado con HT
 
 - `index.html`: estructura principal del sitio.
 - `css/styles.css`: estilos del portfolio.
+- `imagen/`: carpeta de imagenes.
 
 # Checklist - Práctica Formativa Obligatoria 1
 ## • Estructura del Proyecto:
