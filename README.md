@@ -2,6 +2,10 @@
 
 Este proyecto es un sitio web estatico de portfolio personal desarrollado con HTML y CSS.
 
+## 
+- URL de GitHub Pages.
+- https://ricardo197578.github.io/porfolio_Desarrollo_Front/
+
 ## Contenido
 
 - Seccion de presentacion personal.
@@ -32,8 +36,8 @@ Este proyecto es un sitio web estatico de portfolio personal desarrollado con HT
 
 - `[X]` Repositorio en GitHub creado.
 - `[X]` Proyecto subido al repositorio.
-- `[ ]` Proyecto publicado utilizando GitHub Pages.
-- `[ ]` En el "README.md" se indica la URL de GitHub Pages.
+- `[X]` Proyecto publicado utilizando GitHub Pages.
+- `[X]` En el "README.md" se indica la URL de GitHub Pages.
 
 ## • Uso de Google Fonts:
 
