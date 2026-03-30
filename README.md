@@ -2,9 +2,14 @@
 
 Este proyecto es un sitio web estatico de portfolio personal desarrollado con HTML y CSS.
 
-## 
-- URL de GitHub Pages.
-- https://ricardo197578.github.io/porfolio_Desarrollo_Front/
+## URL de GitHub Pages:
+https://ricardo197578.github.io/porfolio_Desarrollo_Front/
+
+## URL Vercel:
+https://porfolio-desarrollo-front-7nbw3rebd-ricardo197578s-projects.vercel.app/
+
+## URL Repositorio git:
+https://github.com/ricardo197578/porfolio_Desarrollo_Front.git
 
 ## Contenido
 
@@ -82,5 +87,5 @@ Este proyecto es un sitio web estatico de portfolio personal desarrollado con HT
 
 - `[X]` El diseño es responsivo y se visualiza correctamente en distintos dispositivos.
 - `[X]` Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en las imágenes).
-- `[ ]` Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
+- `[X]` Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de implementación.
 
