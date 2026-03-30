@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mi Portafolio Personal</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="agrupar">
+
+    <!-- HEADER -->
+    <header id="cabecera">
+        <h1>Mi Portfolio</h1>
+    </header>
+
+    <!-- NAV -->
+    <nav id="menu">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#peliculas">Películas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN -->
+    <main id="contenido">
+
+        <!-- SOBRE MI -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <div class="sobre-mi-contenido">
+                <img class="foto-perfil" src="imagen/MiFoto2.png" alt="Foto personal">
+
+                <p>
+                    ¡Hola!Me llamo Ricardo.
+                    Me encuentro en proceso de reconversión profesional hacia el desarrollo de software. Cuento con formación técnica como
+                    Técnico Mecánico, experiencia que fortaleció mi lógica, la resolución de problemas y el pensamiento estructurado.
+                    Actualmente curso la Tecnicatura en Programación Web (IFTS N.º 29), con finalización prevista para este año.
+                    Me interesa especialmente el desarrollo de aplicaciones web, la gestión de datos y la creación de soluciones prácticas
+                    aplicables en entornos reales. Además, me capacito en integración de inteligencia artificial para mejorar la
+                    productividad, optimizar el código y acelerar el desarrollo de proyectos.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+        <section>
+            <h2>Proyectos</h2>
+
+            <div id="tarjetas">
+
+                <article class="proyecto">
+                    <h3>Proyecto 1</h3>
+                    <img src="imagen/porfolioReflex.png" alt="Proyecto 1">
+                    <div class="proyecto-info">
+                        <p>Portafolio desarrollado con Python y Reflex.
+                            ¿Que es este proyecto? "editorCMS" es un sistema para editar contenido visual de un sitio web.
+
+                            El stack principal es: Python, Reflex (reflex==0.8.28),SQLModel / SQLAlchemy,
+                            Base de datos compatible con PostgreSQL
+                        </p>
+                        <p><a href="https://editorcms-aqua-piano.reflex.run/" target="_blank" rel="noopener noreferrer">Ver proyecto</a></p>
+                    </div>
+                </article>
+
+                <article class="proyecto">
+                    <h3>Proyecto 2</h3>
+                    <img src="imagen/cms.png" alt="Proyecto 2">
+                    <div class="proyecto-info">
+                        <p>CMS de artículos con panel de administración.</p>
+                        <p><a href="https://editorial-cms-teal-orca.reflex.run" target="_blank" rel="noopener noreferrer">Ver proyecto</a></p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <!-- PELICULAS FAVORITAS -->
+        <section id="peliculas">
+            <h2>Películas favoritas</h2>
+
+            <div class="peliculas-grid">
+                <article class="pelicula">
+                    <h3>Interestelar</h3>
+                    <img src="imagen/interestelar.jpg" alt="Poster de Interestelar">
+                    <p>
+                        Una historia emocionante sobre exploración espacial y vínculos familiares.
+                        Destaca por su música, su ambición visual y su mirada sobre el tiempo.
+                    </p>
+                </article>
+
+                <article class="pelicula">
+                    <h3>El Señor de los Anillos: El Retorno del Rey</h3>
+                    <img src="imagen/elSeñorDeLosAnillos.png" alt="Poster de El Retorno del Rey">
+                    <p>
+                        Un cierre épico para una trilogía inolvidable. Combina aventura, amistad
+                        y sacrificio con escenas memorables y una gran dirección artística.
+                    </p>
+                </article>
+
+                <article class="pelicula">
+                    <h3>La vida es bella</h3>
+                    <img src="imagen/laVidaEsBella.jpg" alt="Poster de La vida es bella">
+                    <p>
+                        Una película conmovedora que mezcla humor y drama de forma extraordinaria.
+                        Su mensaje sobre esperanza y amor la hace profundamente inspiradora.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario-contacto" action="#" method="post">
+                <div class="grupo-campo">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" name="apellido" type="text" placeholder="Tu apellido" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="tuemail@dominio.com" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="telefono">Teléfono</label>
+                    <input id="telefono" name="telefono" type="tel" placeholder="Tu teléfono" required>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="pie">
+        <p>&copy; 2026 Mi Portfolio - Ricardo</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
